@@ -13,6 +13,8 @@ class ViewController: UIViewController,RTCatVideoPlayerDelegate{
     var videoPlayer:RTCatVideoPlayer!
     
     override func viewDidLoad() {
+        @IBOutlet weak var whiteBoard: WhiteBoardView!
+        @IBOutlet weak var whiteBoard: WhiteBoardView!
         super.viewDidLoad()
         cat = RTCat.shareInstance()
         localStream = cat.createStream(withVideo: true, audio: true)

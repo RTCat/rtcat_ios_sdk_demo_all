@@ -7,4 +7,7 @@
    <FileRef
       location = "group:2.White-Board/2.White-Board.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:3.Mutli-Party/3.Mutli-Party.xcodeproj">
+   </FileRef>
 </Workspace>
