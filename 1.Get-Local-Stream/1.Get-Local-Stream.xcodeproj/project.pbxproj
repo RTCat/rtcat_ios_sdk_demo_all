@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2D442E81E4C558A00864117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D442E71E4C558A00864117 /* AppDelegate.swift */; };
+		F2D442EA1E4C558A00864117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D442E91E4C558A00864117 /* ViewController.swift */; };
+		F2D442ED1E4C558A00864117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D442EB1E4C558A00864117 /* Main.storyboard */; };
+		F2D442EF1E4C558A00864117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D442EE1E4C558A00864117 /* Assets.xcassets */; };
+		F2D442F21E4C558A00864117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D442F01E4C558A00864117 /* LaunchScreen.storyboard */; };
+		F2D443371E4C5D1F00864117 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D443291E4C5D1F00864117 /* VideoToolbox.framework */; };
+		F2D443381E4C5D1F00864117 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D4432A1E4C5D1F00864117 /* UIKit.framework */; };
+		F2D443391E4C5D1F00864117 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D4432B1E4C5D1F00864117 /* QuartzCore.framework */; };
+		F2D4433A1E4C5D1F00864117 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D4432C1E4C5D1F00864117 /* OpenGLES.framework */; };
+		F2D4433B1E4C5D1F00864117 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D4432D1E4C5D1F00864117 /* libsqlite3.tbd */; };
+		F2D4433C1E4C5D1F00864117 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D4432E1E4C5D1F00864117 /* libc++.tbd */; };
+		F2D4433D1E4C5D1F00864117 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D4432F1E4C5D1F00864117 /* libicucore.A.tbd */; };
+		F2D4433E1E4C5D1F00864117 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D443301E4C5D1F00864117 /* GLKit.framework */; };
+		F2D4433F1E4C5D1F00864117 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D443311E4C5D1F00864117 /* CoreVideo.framework */; };
+		F2D443401E4C5D1F00864117 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D443321E4C5D1F00864117 /* CoreMedia.framework */; };
+		F2D443411E4C5D1F00864117 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D443331E4C5D1F00864117 /* CoreGraphics.framework */; };
+		F2D443421E4C5D1F00864117 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D443341E4C5D1F00864117 /* AVFoundation.framework */; };
+		F2D443431E4C5D1F00864117 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D443351E4C5D1F00864117 /* AudioToolbox.framework */; };
+		F2D443451E4C5D4000864117 /* RTCatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D443441E4C5D4000864117 /* RTCatSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2D442E41E4C558A00864117 /* 1.Get-Local-Stream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1.Get-Local-Stream.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D442E71E4C558A00864117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2D442E91E4C558A00864117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2D442EC1E4C558A00864117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2D442EE1E4C558A00864117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2D442F11E4C558A00864117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2D442F31E4C558A00864117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D443291E4C5D1F00864117 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		F2D4432A1E4C5D1F00864117 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2D4432B1E4C5D1F00864117 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F2D4432C1E4C5D1F00864117 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F2D4432D1E4C5D1F00864117 /* libsqlite3.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F2D4432E1E4C5D1F00864117 /* libc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F2D4432F1E4C5D1F00864117 /* libicucore.A.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
+		F2D443301E4C5D1F00864117 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F2D443311E4C5D1F00864117 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F2D443321E4C5D1F00864117 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F2D443331E4C5D1F00864117 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2D443341E4C5D1F00864117 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F2D443351E4C5D1F00864117 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F2D443441E4C5D4000864117 /* RTCatSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RTCatSDK.framework; path = ../demo_all/RTCatSDK.framework; sourceTree = "<group>"; };
+		F2D443481E4C62A700864117 /* 1.Get-Local-Stream-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1.Get-Local-Stream-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2D442E11E4C558A00864117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D4433C1E4C5D1F00864117 /* libc++.tbd in Frameworks */,
+				F2D4433B1E4C5D1F00864117 /* libsqlite3.tbd in Frameworks */,
+				F2D443371E4C5D1F00864117 /* VideoToolbox.framework in Frameworks */,
+				F2D443381E4C5D1F00864117 /* UIKit.framework in Frameworks */,
+				F2D443451E4C5D4000864117 /* RTCatSDK.framework in Frameworks */,
+				F2D443401E4C5D1F00864117 /* CoreMedia.framework in Frameworks */,
+				F2D443431E4C5D1F00864117 /* AudioToolbox.framework in Frameworks */,
+				F2D443391E4C5D1F00864117 /* QuartzCore.framework in Frameworks */,
+				F2D4433F1E4C5D1F00864117 /* CoreVideo.framework in Frameworks */,
+				F2D4433A1E4C5D1F00864117 /* OpenGLES.framework in Frameworks */,
+				F2D443421E4C5D1F00864117 /* AVFoundation.framework in Frameworks */,
+				F2D4433E1E4C5D1F00864117 /* GLKit.framework in Frameworks */,
+				F2D443411E4C5D1F00864117 /* CoreGraphics.framework in Frameworks */,
+				F2D4433D1E4C5D1F00864117 /* libicucore.A.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2D442DB1E4C558A00864117 = {
+			isa = PBXGroup;
+			children = (
+				F2D442E61E4C558A00864117 /* 1.Get-Local-Stream */,
+				F2D442E51E4C558A00864117 /* Products */,
+				F2D443361E4C5D1F00864117 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2D442E51E4C558A00864117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2D442E41E4C558A00864117 /* 1.Get-Local-Stream.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2D442E61E4C558A00864117 /* 1.Get-Local-Stream */ = {
+			isa = PBXGroup;
+			children = (
+				F2D442E71E4C558A00864117 /* AppDelegate.swift */,
+				F2D442E91E4C558A00864117 /* ViewController.swift */,
+				F2D442EB1E4C558A00864117 /* Main.storyboard */,
+				F2D442EE1E4C558A00864117 /* Assets.xcassets */,
+				F2D442F01E4C558A00864117 /* LaunchScreen.storyboard */,
+				F2D442F31E4C558A00864117 /* Info.plist */,
+				F2D443481E4C62A700864117 /* 1.Get-Local-Stream-Bridging-Header.h */,
+			);
+			path = "1.Get-Local-Stream";
+			sourceTree = "<group>";
+		};
+		F2D443361E4C5D1F00864117 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2D443441E4C5D4000864117 /* RTCatSDK.framework */,
+				F2D443291E4C5D1F00864117 /* VideoToolbox.framework */,
+				F2D4432A1E4C5D1F00864117 /* UIKit.framework */,
+				F2D4432B1E4C5D1F00864117 /* QuartzCore.framework */,
+				F2D4432C1E4C5D1F00864117 /* OpenGLES.framework */,
+				F2D4432D1E4C5D1F00864117 /* libsqlite3.tbd */,
+				F2D4432E1E4C5D1F00864117 /* libc++.tbd */,
+				F2D4432F1E4C5D1F00864117 /* libicucore.A.tbd */,
+				F2D443301E4C5D1F00864117 /* GLKit.framework */,
+				F2D443311E4C5D1F00864117 /* CoreVideo.framework */,
+				F2D443321E4C5D1F00864117 /* CoreMedia.framework */,
+				F2D443331E4C5D1F00864117 /* CoreGraphics.framework */,
+				F2D443341E4C5D1F00864117 /* AVFoundation.framework */,
+				F2D443351E4C5D1F00864117 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			path = ../../demo1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2D442E31E4C558A00864117 /* 1.Get-Local-Stream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D442F61E4C558A00864117 /* Build configuration list for PBXNativeTarget "1.Get-Local-Stream" */;
+			buildPhases = (
+				F2D442E01E4C558A00864117 /* Sources */,
+				F2D442E11E4C558A00864117 /* Frameworks */,
+				F2D442E21E4C558A00864117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1.Get-Local-Stream";
+			productName = "1.Get-Local-Stream";
+			productReference = F2D442E41E4C558A00864117 /* 1.Get-Local-Stream.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2D442DC1E4C558A00864117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = spacetime;
+				TargetAttributes = {
+					F2D442E31E4C558A00864117 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TXCLPPJG27;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F2D442DF1E4C558A00864117 /* Build configuration list for PBXProject "1.Get-Local-Stream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2D442DB1E4C558A00864117;
+			productRefGroup = F2D442E51E4C558A00864117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2D442E31E4C558A00864117 /* 1.Get-Local-Stream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2D442E21E4C558A00864117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D442F21E4C558A00864117 /* LaunchScreen.storyboard in Resources */,
+				F2D442EF1E4C558A00864117 /* Assets.xcassets in Resources */,
+				F2D442ED1E4C558A00864117 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2D442E01E4C558A00864117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D442EA1E4C558A00864117 /* ViewController.swift in Sources */,
+				F2D442E81E4C558A00864117 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2D442EB1E4C558A00864117 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D442EC1E4C558A00864117 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2D442F01E4C558A00864117 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D442F11E4C558A00864117 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2D442F41E4C558A00864117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2D442F51E4C558A00864117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2D442F71E4C558A00864117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = TXCLPPJG27;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../";
+				INFOPLIST_FILE = "1.Get-Local-Stream/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimao.RTCatDemo.--Get-Local-Stream";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "1.Get-Local-Stream/1.Get-Local-Stream-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F2D442F81E4C558A00864117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = TXCLPPJG27;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../";
+				INFOPLIST_FILE = "1.Get-Local-Stream/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimao.RTCatDemo.--Get-Local-Stream";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "1.Get-Local-Stream/1.Get-Local-Stream-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2D442DF1E4C558A00864117 /* Build configuration list for PBXProject "1.Get-Local-Stream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D442F41E4C558A00864117 /* Debug */,
+				F2D442F51E4C558A00864117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D442F61E4C558A00864117 /* Build configuration list for PBXNativeTarget "1.Get-Local-Stream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D442F71E4C558A00864117 /* Debug */,
+				F2D442F81E4C558A00864117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2D442DC1E4C558A00864117 /* Project object */;
+}
