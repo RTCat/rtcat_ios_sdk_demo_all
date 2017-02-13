@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2C764091E514764008CB903 /* RTCatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C763F91E514764008CB903 /* RTCatSDK.framework */; };
+		F2C7640A1E514764008CB903 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C763FA1E514764008CB903 /* VideoToolbox.framework */; };
+		F2C7640B1E514764008CB903 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C763FB1E514764008CB903 /* QuartzCore.framework */; };
+		F2C7640C1E514764008CB903 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C763FC1E514764008CB903 /* OpenGLES.framework */; };
+		F2C7640D1E514764008CB903 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C763FD1E514764008CB903 /* GLKit.framework */; };
+		F2C7640E1E514764008CB903 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C763FE1E514764008CB903 /* CoreVideo.framework */; };
+		F2C7640F1E514764008CB903 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C763FF1E514764008CB903 /* CoreMedia.framework */; };
+		F2C764101E514764008CB903 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764001E514764008CB903 /* CoreGraphics.framework */; };
+		F2C764111E514764008CB903 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764011E514764008CB903 /* CoreAudio.framework */; };
+		F2C764121E514764008CB903 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764021E514764008CB903 /* AVFoundation.framework */; };
+		F2C764131E514764008CB903 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764031E514764008CB903 /* AudioToolbox.framework */; };
+		F2C764141E514764008CB903 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764041E514764008CB903 /* CFNetwork.framework */; };
+		F2C764151E514764008CB903 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764051E514764008CB903 /* libsqlite3.tbd */; };
+		F2C764161E514764008CB903 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764061E514764008CB903 /* libc++.tbd */; };
+		F2C764171E514764008CB903 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764071E514764008CB903 /* libicucore.A.tbd */; };
 		F2D4439F1E4DC98600864117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D4439E1E4DC98600864117 /* AppDelegate.swift */; };
 		F2D443A11E4DC98600864117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D443A01E4DC98600864117 /* ViewController.swift */; };
 		F2D443A41E4DC98600864117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D443A21E4DC98600864117 /* Main.storyboard */; };
@@ -15,6 +30,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2C763F91E514764008CB903 /* RTCatSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RTCatSDK.framework; path = ../demo_all/RTCatSDK.framework; sourceTree = "<group>"; };
+		F2C763FA1E514764008CB903 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		F2C763FB1E514764008CB903 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F2C763FC1E514764008CB903 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F2C763FD1E514764008CB903 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F2C763FE1E514764008CB903 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F2C763FF1E514764008CB903 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F2C764001E514764008CB903 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2C764011E514764008CB903 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		F2C764021E514764008CB903 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F2C764031E514764008CB903 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F2C764041E514764008CB903 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F2C764051E514764008CB903 /* libsqlite3.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F2C764061E514764008CB903 /* libc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F2C764071E514764008CB903 /* libicucore.A.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
+		F2C764181E5149D1008CB903 /* 3.Mutli-Party-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3.Mutli-Party-Bridging-Header.h"; sourceTree = "<group>"; };
 		F2D4439B1E4DC98600864117 /* 3.Mutli-Party.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3.Mutli-Party.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D4439E1E4DC98600864117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2D443A01E4DC98600864117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +60,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C764111E514764008CB903 /* CoreAudio.framework in Frameworks */,
+				F2C7640A1E514764008CB903 /* VideoToolbox.framework in Frameworks */,
+				F2C764121E514764008CB903 /* AVFoundation.framework in Frameworks */,
+				F2C764131E514764008CB903 /* AudioToolbox.framework in Frameworks */,
+				F2C764091E514764008CB903 /* RTCatSDK.framework in Frameworks */,
+				F2C764151E514764008CB903 /* libsqlite3.tbd in Frameworks */,
+				F2C7640B1E514764008CB903 /* QuartzCore.framework in Frameworks */,
+				F2C764141E514764008CB903 /* CFNetwork.framework in Frameworks */,
+				F2C764161E514764008CB903 /* libc++.tbd in Frameworks */,
+				F2C7640D1E514764008CB903 /* GLKit.framework in Frameworks */,
+				F2C764101E514764008CB903 /* CoreGraphics.framework in Frameworks */,
+				F2C7640C1E514764008CB903 /* OpenGLES.framework in Frameworks */,
+				F2C7640E1E514764008CB903 /* CoreVideo.framework in Frameworks */,
+				F2C7640F1E514764008CB903 /* CoreMedia.framework in Frameworks */,
+				F2C764171E514764008CB903 /* libicucore.A.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F2C764081E514764008CB903 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2C763F91E514764008CB903 /* RTCatSDK.framework */,
+				F2C763FA1E514764008CB903 /* VideoToolbox.framework */,
+				F2C763FB1E514764008CB903 /* QuartzCore.framework */,
+				F2C763FC1E514764008CB903 /* OpenGLES.framework */,
+				F2C763FD1E514764008CB903 /* GLKit.framework */,
+				F2C763FE1E514764008CB903 /* CoreVideo.framework */,
+				F2C763FF1E514764008CB903 /* CoreMedia.framework */,
+				F2C764001E514764008CB903 /* CoreGraphics.framework */,
+				F2C764011E514764008CB903 /* CoreAudio.framework */,
+				F2C764021E514764008CB903 /* AVFoundation.framework */,
+				F2C764031E514764008CB903 /* AudioToolbox.framework */,
+				F2C764041E514764008CB903 /* CFNetwork.framework */,
+				F2C764051E514764008CB903 /* libsqlite3.tbd */,
+				F2C764061E514764008CB903 /* libc++.tbd */,
+				F2C764071E514764008CB903 /* libicucore.A.tbd */,
+			);
+			name = Frameworks;
+			path = "/Users/spacetime/Develop/ios/shishimao/demo/demo_all/2.White-Board/../../demo2";
+			sourceTree = "<absolute>";
+		};
 		F2D443921E4DC98600864117 = {
 			isa = PBXGroup;
 			children = (
 				F2D4439D1E4DC98600864117 /* 3.Mutli-Party */,
 				F2D4439C1E4DC98600864117 /* Products */,
+				F2C764081E514764008CB903 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +130,7 @@
 				F2D443A51E4DC98600864117 /* Assets.xcassets */,
 				F2D443A71E4DC98600864117 /* LaunchScreen.storyboard */,
 				F2D443AA1E4DC98600864117 /* Info.plist */,
+				F2C764181E5149D1008CB903 /* 3.Mutli-Party-Bridging-Header.h */,
 			);
 			path = "3.Mutli-Party";
 			sourceTree = "<group>";
@@ -97,6 +168,7 @@
 					F2D4439A1E4DC98600864117 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = XMN29TYQVE;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -261,11 +333,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = XMN29TYQVE;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../";
 				INFOPLIST_FILE = "3.Mutli-Party/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimao.RTCatDemo.--Mutli-Party";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "3.Mutli-Party/3.Mutli-Party-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,11 +353,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = XMN29TYQVE;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../";
 				INFOPLIST_FILE = "3.Mutli-Party/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimao.RTCatDemo.--Mutli-Party";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "3.Mutli-Party/3.Mutli-Party-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +387,7 @@
 				F2D443AF1E4DC98600864117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

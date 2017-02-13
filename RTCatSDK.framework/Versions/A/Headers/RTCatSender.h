@@ -9,6 +9,21 @@
 #import <Foundation/Foundation.h>
 #import "RTCatPeer.h"
 
+
+/**
+ *  Sender 数据通道类型
+ */
+typedef NS_ENUM(int, RTCatChannelType) {
+    /**
+     *  message 通道
+     */
+    RTCAT_MESSAGE_CHANNEL = 0,
+    /**
+     *  file 通道
+     */
+    RTCAT_FILE_CHANNEL
+};
+
 /**
  *  Sender(发送器)
  */
@@ -19,7 +34,7 @@
  *  Sender delegate
  */
 @protocol RTCatSenderDelegate <NSObject>
-
+@optional
 /**
  *  发送器关闭
  *
@@ -37,33 +52,39 @@
 
 
 /**
- *  发送器 日志
+ *  发送器日志
  *
  *  @param sender 发送器本身
  *  @param log    发送器日志
  */
--(void)sender:(RTCatSender *)sender Log:(NSDictionary *)log;
+-(void)sender:(RTCatSender *)sender log:(NSDictionary *)log;
 
 
+/**
+ *  发送器发送文件完成
+ *
+ *  @param sender 发送器本身
+ *  @param fileName  文件名
+ */
+-(void)sender:(RTCatSender *)sender fileFinished:(NSString *)fileName;
+
+
+/**
+ *
+ *  发送器数据通道状态变化
+ *  
+ *  @param sender 发送器本身
+ *  @param type 数据通道类型
+ *  @param isOpen 数据通道打开/关闭
+ */
+-(void)sender:(RTCatSender *)sender channel:(RTCatChannelType)type isOpen:(BOOL)isOpen;
 @end
 
 
 @interface RTCatSender()
 @property (nonatomic, weak) id <RTCatSenderDelegate> delegate;
 
-/**
- *  获得发送器属性
- *
- *  @return 发送器属性
- */
--(NSDictionary *)getAttr;
 
-/**
- *  获得发送器编号
- *
- *  @return 发送器编号
- */
--(NSString *)getId;
 
 /**
  *  发送消息
@@ -87,9 +108,5 @@
  */
 -(void)sendFile:(NSString*)filePath;
 
-/**
- *  关闭发送器
- */
--(void)close;
 
 @end

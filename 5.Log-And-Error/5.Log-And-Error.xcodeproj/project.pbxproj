@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2C764461E51A820008CB903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C764451E51A820008CB903 /* AppDelegate.swift */; };
+		F2C764481E51A820008CB903 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C764471E51A820008CB903 /* ViewController.swift */; };
+		F2C7644B1E51A820008CB903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C764491E51A820008CB903 /* Main.storyboard */; };
+		F2C7644D1E51A820008CB903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C7644C1E51A820008CB903 /* Assets.xcassets */; };
+		F2C764501E51A820008CB903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C7644E1E51A820008CB903 /* LaunchScreen.storyboard */; };
+		F2C764831E51A98E008CB903 /* RTCatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764741E51A98E008CB903 /* RTCatSDK.framework */; };
+		F2C764841E51A98E008CB903 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764751E51A98E008CB903 /* VideoToolbox.framework */; };
+		F2C764851E51A98E008CB903 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764761E51A98E008CB903 /* UIKit.framework */; };
+		F2C764861E51A98E008CB903 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764771E51A98E008CB903 /* QuartzCore.framework */; };
+		F2C764871E51A98E008CB903 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764781E51A98E008CB903 /* OpenGLES.framework */; };
+		F2C764881E51A98E008CB903 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764791E51A98E008CB903 /* libsqlite3.tbd */; };
+		F2C764891E51A98E008CB903 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C7647A1E51A98E008CB903 /* libc++.tbd */; };
+		F2C7648A1E51A98E008CB903 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C7647B1E51A98E008CB903 /* libicucore.A.tbd */; };
+		F2C7648B1E51A98E008CB903 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C7647C1E51A98E008CB903 /* GLKit.framework */; };
+		F2C7648C1E51A98E008CB903 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C7647D1E51A98E008CB903 /* CoreVideo.framework */; };
+		F2C7648D1E51A98E008CB903 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C7647E1E51A98E008CB903 /* CoreMedia.framework */; };
+		F2C7648E1E51A98E008CB903 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C7647F1E51A98E008CB903 /* CoreGraphics.framework */; };
+		F2C7648F1E51A98E008CB903 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764801E51A98E008CB903 /* AVFoundation.framework */; };
+		F2C764901E51A98E008CB903 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764811E51A98E008CB903 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2C764421E51A820008CB903 /* 5.Log-And-Error.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5.Log-And-Error.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C764451E51A820008CB903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2C764471E51A820008CB903 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2C7644A1E51A820008CB903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2C7644C1E51A820008CB903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2C7644F1E51A820008CB903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2C764511E51A820008CB903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C764741E51A98E008CB903 /* RTCatSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RTCatSDK.framework; path = ../demo_all/RTCatSDK.framework; sourceTree = "<group>"; };
+		F2C764751E51A98E008CB903 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		F2C764761E51A98E008CB903 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2C764771E51A98E008CB903 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F2C764781E51A98E008CB903 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F2C764791E51A98E008CB903 /* libsqlite3.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F2C7647A1E51A98E008CB903 /* libc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F2C7647B1E51A98E008CB903 /* libicucore.A.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
+		F2C7647C1E51A98E008CB903 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F2C7647D1E51A98E008CB903 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F2C7647E1E51A98E008CB903 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F2C7647F1E51A98E008CB903 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2C764801E51A98E008CB903 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F2C764811E51A98E008CB903 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F2C764941E51AA05008CB903 /* 5.Log-And-Error-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5.Log-And-Error-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2C7643F1E51A820008CB903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C7648E1E51A98E008CB903 /* CoreGraphics.framework in Frameworks */,
+				F2C7648A1E51A98E008CB903 /* libicucore.A.tbd in Frameworks */,
+				F2C7648D1E51A98E008CB903 /* CoreMedia.framework in Frameworks */,
+				F2C7648B1E51A98E008CB903 /* GLKit.framework in Frameworks */,
+				F2C764881E51A98E008CB903 /* libsqlite3.tbd in Frameworks */,
+				F2C764891E51A98E008CB903 /* libc++.tbd in Frameworks */,
+				F2C764871E51A98E008CB903 /* OpenGLES.framework in Frameworks */,
+				F2C764861E51A98E008CB903 /* QuartzCore.framework in Frameworks */,
+				F2C764841E51A98E008CB903 /* VideoToolbox.framework in Frameworks */,
+				F2C764851E51A98E008CB903 /* UIKit.framework in Frameworks */,
+				F2C764831E51A98E008CB903 /* RTCatSDK.framework in Frameworks */,
+				F2C764901E51A98E008CB903 /* AudioToolbox.framework in Frameworks */,
+				F2C7648C1E51A98E008CB903 /* CoreVideo.framework in Frameworks */,
+				F2C7648F1E51A98E008CB903 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2C764391E51A820008CB903 = {
+			isa = PBXGroup;
+			children = (
+				F2C764441E51A820008CB903 /* 5.Log-And-Error */,
+				F2C764431E51A820008CB903 /* Products */,
+				F2C764821E51A98E008CB903 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2C764431E51A820008CB903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2C764421E51A820008CB903 /* 5.Log-And-Error.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2C764441E51A820008CB903 /* 5.Log-And-Error */ = {
+			isa = PBXGroup;
+			children = (
+				F2C764451E51A820008CB903 /* AppDelegate.swift */,
+				F2C764471E51A820008CB903 /* ViewController.swift */,
+				F2C764491E51A820008CB903 /* Main.storyboard */,
+				F2C7644C1E51A820008CB903 /* Assets.xcassets */,
+				F2C7644E1E51A820008CB903 /* LaunchScreen.storyboard */,
+				F2C764511E51A820008CB903 /* Info.plist */,
+				F2C764941E51AA05008CB903 /* 5.Log-And-Error-Bridging-Header.h */,
+			);
+			path = "5.Log-And-Error";
+			sourceTree = "<group>";
+		};
+		F2C764821E51A98E008CB903 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2C764741E51A98E008CB903 /* RTCatSDK.framework */,
+				F2C764751E51A98E008CB903 /* VideoToolbox.framework */,
+				F2C764761E51A98E008CB903 /* UIKit.framework */,
+				F2C764771E51A98E008CB903 /* QuartzCore.framework */,
+				F2C764781E51A98E008CB903 /* OpenGLES.framework */,
+				F2C764791E51A98E008CB903 /* libsqlite3.tbd */,
+				F2C7647A1E51A98E008CB903 /* libc++.tbd */,
+				F2C7647B1E51A98E008CB903 /* libicucore.A.tbd */,
+				F2C7647C1E51A98E008CB903 /* GLKit.framework */,
+				F2C7647D1E51A98E008CB903 /* CoreVideo.framework */,
+				F2C7647E1E51A98E008CB903 /* CoreMedia.framework */,
+				F2C7647F1E51A98E008CB903 /* CoreGraphics.framework */,
+				F2C764801E51A98E008CB903 /* AVFoundation.framework */,
+				F2C764811E51A98E008CB903 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			path = "/Users/spacetime/Develop/ios/shishimao/demo/demo_all/1.Get-Local-Stream/../../demo1";
+			sourceTree = "<absolute>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2C764411E51A820008CB903 /* 5.Log-And-Error */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C764541E51A820008CB903 /* Build configuration list for PBXNativeTarget "5.Log-And-Error" */;
+			buildPhases = (
+				F2C7643E1E51A820008CB903 /* Sources */,
+				F2C7643F1E51A820008CB903 /* Frameworks */,
+				F2C764401E51A820008CB903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5.Log-And-Error";
+			productName = "5.Log-And-Error";
+			productReference = F2C764421E51A820008CB903 /* 5.Log-And-Error.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2C7643A1E51A820008CB903 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = spacetime;
+				TargetAttributes = {
+					F2C764411E51A820008CB903 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XMN29TYQVE;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F2C7643D1E51A820008CB903 /* Build configuration list for PBXProject "5.Log-And-Error" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2C764391E51A820008CB903;
+			productRefGroup = F2C764431E51A820008CB903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2C764411E51A820008CB903 /* 5.Log-And-Error */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2C764401E51A820008CB903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C764501E51A820008CB903 /* LaunchScreen.storyboard in Resources */,
+				F2C7644D1E51A820008CB903 /* Assets.xcassets in Resources */,
+				F2C7644B1E51A820008CB903 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2C7643E1E51A820008CB903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C764481E51A820008CB903 /* ViewController.swift in Sources */,
+				F2C764461E51A820008CB903 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2C764491E51A820008CB903 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C7644A1E51A820008CB903 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2C7644E1E51A820008CB903 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C7644F1E51A820008CB903 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2C764521E51A820008CB903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2C764531E51A820008CB903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2C764551E51A820008CB903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = XMN29TYQVE;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../";
+				INFOPLIST_FILE = "5.Log-And-Error/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimao.RTCatDemo.--Log-And-Error";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "5.Log-And-Error-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F2C764561E51A820008CB903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = XMN29TYQVE;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../";
+				INFOPLIST_FILE = "5.Log-And-Error/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimao.RTCatDemo.--Log-And-Error";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "5.Log-And-Error-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2C7643D1E51A820008CB903 /* Build configuration list for PBXProject "5.Log-And-Error" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C764521E51A820008CB903 /* Debug */,
+				F2C764531E51A820008CB903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C764541E51A820008CB903 /* Build configuration list for PBXNativeTarget "5.Log-And-Error" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C764551E51A820008CB903 /* Debug */,
+				F2C764561E51A820008CB903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2C7643A1E51A820008CB903 /* Project object */;
+}

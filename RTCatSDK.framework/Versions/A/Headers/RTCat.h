@@ -25,7 +25,13 @@ typedef NS_ENUM(NSUInteger, RTCatSupportCodec) {
     
 };
 
-
+typedef NS_ENUM(NSInteger, RTCatLoggingLevel) {
+    RTCAT_LOGGING_VERBOSE = 0,
+    RTCAT_LOGGING_DEBUG = 1,
+    RTCAT_LOGGING_INFO = 2,
+    RTCAT_LOGGING_WARNING = 3,
+    RTCAT_LOGGING_ERROR = 4
+};
 
 
 /**
@@ -107,6 +113,9 @@ typedef NS_ENUM(NSUInteger, RTCatSupportCodec) {
 
 
 -(void)setDefaultCodec:(RTCatSupportCodec )codec;
+
+
+-(void)setLogLevel:(RTCatLoggingLevel) level;
 
 /**
  * 获取SDK版本号

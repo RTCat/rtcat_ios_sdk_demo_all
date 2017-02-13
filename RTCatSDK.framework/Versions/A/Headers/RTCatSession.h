@@ -47,73 +47,84 @@ typedef NS_ENUM(NSInteger, RTCatSessionState) {
     RTCAT_SESSION_CLOSED,
 };
 
+@interface RTCatSession : NSObject
+
+@end
 /**
  *  Session delegate
  */
 @protocol RTCatSessionDelegate <NSObject>
-
+@optional
 /**
  *  有 token 进入 Session
  *
+ *  @param session session对象本身
  *  @param token tokenId
  */
--(void)sessionIn:(NSString *)token;
+-(void)session:(RTCatSession*)session in:(NSString *)token;
 
 /**
  *  有 token 退出 Session
  *
+ *  @param session session对象本身
  *  @param token tokenId
  */
--(void)sessionOut:(NSString *)token;
+-(void)session:(RTCatSession*)session out:(NSString *)token;
 
 /**
  *  session 连接成功
  *
+ *  @param session session对象本身
  *  @param tokens 当前所有已连入的 Session
  */
--(void)sessionConnected:(NSArray *)tokens;
+-(void)session:(RTCatSession*)session connected:(NSArray *)tokens;
 
 
 /**
  *  Session 关闭
+ *  @param session session对象本身
  */
--(void)sessionClose;
+-(void)sessionClose:(RTCatSession*)session;
 
 /**
  *  Session 连接出错
  *
+ *  @param session session对象本身
  *  @param error 错误信息
  */
--(void)sessionError:(NSError *)error;
+-(void)session:(RTCatSession*)session error:(NSError *)error;
 
 /**
  *  Session 连接 接收器
  *
+ *  @param session session对象本身
  *  @param receiver 接收器
  */
--(void)sessionRemote:(RTCatReceiver *)receiver;
+-(void)session:(RTCatSession*)session remote:(RTCatReceiver *)receiver;
 
 /**
  *  Session 连入 发送器
  *
+ *  @param session session对象本身
  *  @param sender 发送器
  */
--(void)sessionLocal:(RTCatSender *)sender;
+-(void)session:(RTCatSession*)session local:(RTCatSender *)sender;
 
 /**
  *  Session 收到消息
  *
+ *  @param session session对象本身
  *  @param message 消息
- *  @param tokenId 发送消息的 tokenId
+ *  @param token 发送消息的 tokenId
  */
--(void)sessionMessage:(NSString *)message from:(NSString *)tokenId;
+-(void)session:(RTCatSession*)session message:(NSString *)message from:(NSString *)token;
 
 @end
 
 /**
  *  会话
  */
-@interface RTCatSession : NSObject
+@interface RTCatSession()
 
 /**
  *  连入 Session

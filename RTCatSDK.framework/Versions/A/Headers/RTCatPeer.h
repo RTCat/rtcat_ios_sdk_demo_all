@@ -46,4 +46,31 @@ typedef NS_ENUM(NSUInteger, RTCatPeerState) {
  *  实时猫连接通道
  */
 @interface RTCatPeer : NSObject
+
+/**
+ *  获得通道属性
+ *
+ *  @return 通道属性
+ */
+-(NSDictionary *)getAttr;
+
+/**
+ *  获得通道编号
+ *
+ *  @return 通道编号
+ */
+-(NSString *)getId;
+
+
+/**
+ * 获得通道状态
+ * @return 通道状态
+ */
+-(RTCatPeerState)getState;
+
+
+/**
+ *  关闭通道
+ */
+-(void)close;
 @end

@@ -10,4 +10,10 @@
    <FileRef
       location = "group:3.Mutli-Party/3.Mutli-Party.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:4.Message/4.Message.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:5.Log-And-Error/5.Log-And-Error.xcodeproj">
+   </FileRef>
 </Workspace>
