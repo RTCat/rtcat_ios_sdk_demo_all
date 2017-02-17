@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F2C764461E51A820008CB903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C764451E51A820008CB903 /* AppDelegate.swift */; };
-		F2C764481E51A820008CB903 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C764471E51A820008CB903 /* ViewController.swift */; };
 		F2C7644B1E51A820008CB903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C764491E51A820008CB903 /* Main.storyboard */; };
 		F2C7644D1E51A820008CB903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C7644C1E51A820008CB903 /* Assets.xcassets */; };
 		F2C764501E51A820008CB903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C7644E1E51A820008CB903 /* LaunchScreen.storyboard */; };
@@ -26,12 +25,12 @@
 		F2C7648E1E51A98E008CB903 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C7647F1E51A98E008CB903 /* CoreGraphics.framework */; };
 		F2C7648F1E51A98E008CB903 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764801E51A98E008CB903 /* AVFoundation.framework */; };
 		F2C764901E51A98E008CB903 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764811E51A98E008CB903 /* AudioToolbox.framework */; };
+		F2C765211E52F03D008CB903 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C765201E52F03D008CB903 /* LogViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F2C764421E51A820008CB903 /* 5.Log-And-Error.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5.Log-And-Error.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C764451E51A820008CB903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2C764471E51A820008CB903 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F2C7644A1E51A820008CB903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2C7644C1E51A820008CB903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2C7644F1E51A820008CB903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		F2C764801E51A98E008CB903 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F2C764811E51A98E008CB903 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		F2C764941E51AA05008CB903 /* 5.Log-And-Error-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5.Log-And-Error-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		F2C765201E52F03D008CB903 /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogViewController.swift; path = ../LogViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 		F2C764441E51A820008CB903 /* 5.Log-And-Error */ = {
 			isa = PBXGroup;
 			children = (
+				F2C765201E52F03D008CB903 /* LogViewController.swift */,
 				F2C764451E51A820008CB903 /* AppDelegate.swift */,
-				F2C764471E51A820008CB903 /* ViewController.swift */,
 				F2C764491E51A820008CB903 /* Main.storyboard */,
 				F2C7644C1E51A820008CB903 /* Assets.xcassets */,
 				F2C7644E1E51A820008CB903 /* LaunchScreen.storyboard */,
@@ -163,7 +163,7 @@
 				TargetAttributes = {
 					F2C764411E51A820008CB903 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = XMN29TYQVE;
+						DevelopmentTeam = TXCLPPJG27;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -205,8 +205,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2C764481E51A820008CB903 /* ViewController.swift in Sources */,
 				F2C764461E51A820008CB903 /* AppDelegate.swift in Sources */,
+				F2C765211E52F03D008CB903 /* LogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,10 +330,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = XMN29TYQVE;
+				DEVELOPMENT_TEAM = TXCLPPJG27;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../";
 				INFOPLIST_FILE = "5.Log-And-Error/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimao.RTCatDemo.--Log-And-Error";
@@ -349,10 +350,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = XMN29TYQVE;
+				DEVELOPMENT_TEAM = TXCLPPJG27;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../";
 				INFOPLIST_FILE = "5.Log-And-Error/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimao.RTCatDemo.--Log-And-Error";

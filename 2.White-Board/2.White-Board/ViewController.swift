@@ -88,32 +88,20 @@ class ViewController: UIViewController ,WhiteBoardDelegate{
 
 extension ViewController: RTCatSessionDelegate{
     
-    func session(in token: String) {
+    func session(_ session: RTCatSession!, connected tokens: [Any]!) {
+        print("session is connected")
+    }
+    
+    func session(_ session: RTCatSession!, in token: String!) {
         print("\(token) is in")
     }
     
-    func sessionOut(_ token: String) {
+    func session(_ session: RTCatSession!, out token: String!) {
         print("\(token) is out")
     }
     
-    func sessionConnected(_ tokens: [Any]) {
-        print("connected")
-    }
     
-    func sessionClose() {
-    }
-    
-    func sessionError(_ error: Error?) {
-        print("session error -> \(error)")
-    }
-    
-    func sessionLocal(_ sender: RTCatSender) {
-    }
-    
-    func sessionRemote(_ receiver: RTCatReceiver) {
-    }
-    
-    func sessionMessage(_ message: String, from tokenId: String) {
+    func session(_ session: RTCatSession!, message: String!, from token: String!) {
         let data = message.data(using: String.Encoding.utf8)
         let object: Any? = try? JSONSerialization.jsonObject(with: data!, options: [])
         if (object is [AnyHashable: Any]) {
@@ -124,6 +112,10 @@ extension ViewController: RTCatSessionDelegate{
             self.whiteBoard.drawOtherHandle(type, x: x!, y: y!)
         }
     }
+
+    
+    
+    
 }
 
 

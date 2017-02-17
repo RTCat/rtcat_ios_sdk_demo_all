@@ -10,13 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
-//    let sessionId = "073df4a9-e9ef-4f45-a2b0-e14c778bcd86"
-//    let apiKey = "91af9be9-7bac-40df-962d-f141eebe9d43"
-//    let apiSecret = "ce8df259-1f7a-4aa4-9e4e-862af9f6c24d"
-    
-        let sessionId = "314e6da1-7282-44cd-92b2-41cc99e1d6ba"
-        let apiKey = "8b8da770-d99c-4617-9f9a-79510505e175"
-        let apiSecret = "262abb49-2ffc-46c6-bdc7-cb27579b21c5"
+    let sessionId = "073df4a9-e9ef-4f45-a2b0-e14c778bcd86"
+    let apiKey = "91af9be9-7bac-40df-962d-f141eebe9d43"
+    let apiSecret = "ce8df259-1f7a-4aa4-9e4e-862af9f6c24d"
     
     var cat:RTCat!
     var session:RTCatSession!
@@ -157,9 +153,7 @@ extension ViewController: RTCatSenderDelegate{
 
 extension ViewController :RTCatReceiverDelegate{
     func receiver(_ receiver: RTCatReceiver!, stream: RTCatRemoteStream!) {
-        
         self.playStream(receiver.getSenderToken(), stream)
-        
     }
 }
 
