@@ -18,6 +18,7 @@
 
 1. `git clone https://github.com/RTCat/rtcat_ios_demo_all.git`
 2. 打开 `RTCat-iOS-Demo-All.xcworkspace` 工程文件
-3. (可选步骤) 在项目的 `ViewController` 中修改 `APIKEY` 、`SECRET` 、 `SESSION`，使用个人项目信息创建会话。获取方式请参考[实时猫开发者文档](http://docs.shishimao.com/02.%20getting-started/02.%20dashboard-and-projects.html#)
-4. 从多个样例中选择一个，将其安装在手机中，进行测试
-5. (可选步骤：在多人通讯时需要) 使用另一台手机，同样安装相同的样例程序，作为第二个客户端
+3. 下载 [RTCatSDK.framework](http://docs.shishimao.com/05.%20ios/01.%20introduction.html)，并将其放置在工程的根目录下
+4. (可选步骤) 在项目的 `ViewController` 中修改 `APIKEY` 、`SECRET` 、 `SESSION`，使用个人项目信息创建会话。获取方式请参考[实时猫开发者文档](http://docs.shishimao.com/02.%20getting-started/02.%20dashboard-and-projects.html#)
+5. 从多个样例中选择一个，将其安装在手机中，进行测试
+6. (可选步骤：在多人通讯时需要) 使用另一台手机，同样安装相同的样例程序，作为第二个客户端
