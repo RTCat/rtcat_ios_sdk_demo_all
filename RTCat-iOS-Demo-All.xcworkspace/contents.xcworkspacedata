@@ -16,4 +16,7 @@
    <FileRef
       location = "group:5.Log-And-Error/5.Log-And-Error.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:6.Video-Player-Layout/6.Video-Player-Layout.xcodeproj">
+   </FileRef>
 </Workspace>

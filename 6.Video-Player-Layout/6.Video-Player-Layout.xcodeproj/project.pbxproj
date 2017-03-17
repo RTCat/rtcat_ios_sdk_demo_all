@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20B24D31E7BE95D00299478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20B24D21E7BE95D00299478 /* AppDelegate.swift */; };
+		F20B24D81E7BE95D00299478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20B24D61E7BE95D00299478 /* Main.storyboard */; };
+		F20B24DA1E7BE95D00299478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20B24D91E7BE95D00299478 /* Assets.xcassets */; };
+		F20B24DD1E7BE95D00299478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20B24DB1E7BE95D00299478 /* LaunchScreen.storyboard */; };
+		F20B24F31E7BE98500299478 /* RTCatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B24E41E7BE98500299478 /* RTCatSDK.framework */; };
+		F20B24F41E7BE98500299478 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B24E51E7BE98500299478 /* VideoToolbox.framework */; };
+		F20B24F51E7BE98500299478 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B24E61E7BE98500299478 /* UIKit.framework */; };
+		F20B24F61E7BE98500299478 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B24E71E7BE98500299478 /* QuartzCore.framework */; };
+		F20B24F71E7BE98500299478 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B24E81E7BE98500299478 /* OpenGLES.framework */; };
+		F20B24F81E7BE98500299478 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B24E91E7BE98500299478 /* libsqlite3.tbd */; };
+		F20B24F91E7BE98500299478 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B24EA1E7BE98500299478 /* libc++.tbd */; };
+		F20B24FA1E7BE98500299478 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B24EB1E7BE98500299478 /* libicucore.A.tbd */; };
+		F20B24FB1E7BE98500299478 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B24EC1E7BE98500299478 /* GLKit.framework */; };
+		F20B24FC1E7BE98500299478 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B24ED1E7BE98500299478 /* CoreVideo.framework */; };
+		F20B24FD1E7BE98500299478 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B24EE1E7BE98500299478 /* CoreMedia.framework */; };
+		F20B24FE1E7BE98500299478 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B24EF1E7BE98500299478 /* CoreGraphics.framework */; };
+		F20B24FF1E7BE98500299478 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B24F01E7BE98500299478 /* AVFoundation.framework */; };
+		F20B25001E7BE98500299478 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20B24F11E7BE98500299478 /* AudioToolbox.framework */; };
+		F20B25021E7BEA3C00299478 /* VideoPlayerLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20B25011E7BEA3C00299478 /* VideoPlayerLayoutViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F20B24CF1E7BE95D00299478 /* 6.Video-Player-Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "6.Video-Player-Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20B24D21E7BE95D00299478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F20B24D71E7BE95D00299478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F20B24D91E7BE95D00299478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F20B24DC1E7BE95D00299478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F20B24DE1E7BE95D00299478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20B24E41E7BE98500299478 /* RTCatSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RTCatSDK.framework; sourceTree = "<group>"; };
+		F20B24E51E7BE98500299478 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		F20B24E61E7BE98500299478 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F20B24E71E7BE98500299478 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F20B24E81E7BE98500299478 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F20B24E91E7BE98500299478 /* libsqlite3.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F20B24EA1E7BE98500299478 /* libc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F20B24EB1E7BE98500299478 /* libicucore.A.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
+		F20B24EC1E7BE98500299478 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F20B24ED1E7BE98500299478 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F20B24EE1E7BE98500299478 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F20B24EF1E7BE98500299478 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F20B24F01E7BE98500299478 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F20B24F11E7BE98500299478 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F20B25011E7BEA3C00299478 /* VideoPlayerLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerLayoutViewController.swift; sourceTree = SOURCE_ROOT; };
+		F20B25031E7BEA7600299478 /* 6.Video-Player-Layout-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "6.Video-Player-Layout-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F20B24CC1E7BE95D00299478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20B24FE1E7BE98500299478 /* CoreGraphics.framework in Frameworks */,
+				F20B24FA1E7BE98500299478 /* libicucore.A.tbd in Frameworks */,
+				F20B24FD1E7BE98500299478 /* CoreMedia.framework in Frameworks */,
+				F20B24FB1E7BE98500299478 /* GLKit.framework in Frameworks */,
+				F20B24F81E7BE98500299478 /* libsqlite3.tbd in Frameworks */,
+				F20B24F91E7BE98500299478 /* libc++.tbd in Frameworks */,
+				F20B24F71E7BE98500299478 /* OpenGLES.framework in Frameworks */,
+				F20B24F61E7BE98500299478 /* QuartzCore.framework in Frameworks */,
+				F20B24F41E7BE98500299478 /* VideoToolbox.framework in Frameworks */,
+				F20B24F51E7BE98500299478 /* UIKit.framework in Frameworks */,
+				F20B24F31E7BE98500299478 /* RTCatSDK.framework in Frameworks */,
+				F20B25001E7BE98500299478 /* AudioToolbox.framework in Frameworks */,
+				F20B24FC1E7BE98500299478 /* CoreVideo.framework in Frameworks */,
+				F20B24FF1E7BE98500299478 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F20B24C61E7BE95D00299478 = {
+			isa = PBXGroup;
+			children = (
+				F20B24F21E7BE98500299478 /* Frameworks */,
+				F20B24D11E7BE95D00299478 /* 6.Video-Player-Layout */,
+				F20B24D01E7BE95D00299478 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F20B24D01E7BE95D00299478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F20B24CF1E7BE95D00299478 /* 6.Video-Player-Layout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F20B24D11E7BE95D00299478 /* 6.Video-Player-Layout */ = {
+			isa = PBXGroup;
+			children = (
+				F20B24D21E7BE95D00299478 /* AppDelegate.swift */,
+				F20B25011E7BEA3C00299478 /* VideoPlayerLayoutViewController.swift */,
+				F20B24D61E7BE95D00299478 /* Main.storyboard */,
+				F20B24D91E7BE95D00299478 /* Assets.xcassets */,
+				F20B24DB1E7BE95D00299478 /* LaunchScreen.storyboard */,
+				F20B24DE1E7BE95D00299478 /* Info.plist */,
+				F20B25031E7BEA7600299478 /* 6.Video-Player-Layout-Bridging-Header.h */,
+			);
+			path = "6.Video-Player-Layout";
+			sourceTree = "<group>";
+		};
+		F20B24F21E7BE98500299478 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F20B24E41E7BE98500299478 /* RTCatSDK.framework */,
+				F20B24E51E7BE98500299478 /* VideoToolbox.framework */,
+				F20B24E61E7BE98500299478 /* UIKit.framework */,
+				F20B24E71E7BE98500299478 /* QuartzCore.framework */,
+				F20B24E81E7BE98500299478 /* OpenGLES.framework */,
+				F20B24E91E7BE98500299478 /* libsqlite3.tbd */,
+				F20B24EA1E7BE98500299478 /* libc++.tbd */,
+				F20B24EB1E7BE98500299478 /* libicucore.A.tbd */,
+				F20B24EC1E7BE98500299478 /* GLKit.framework */,
+				F20B24ED1E7BE98500299478 /* CoreVideo.framework */,
+				F20B24EE1E7BE98500299478 /* CoreMedia.framework */,
+				F20B24EF1E7BE98500299478 /* CoreGraphics.framework */,
+				F20B24F01E7BE98500299478 /* AVFoundation.framework */,
+				F20B24F11E7BE98500299478 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			path = "/Users/spacetime/Develop/ios/shishimao/demo/demo_all/1.Get-Local-Stream/../../demo1";
+			sourceTree = "<absolute>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F20B24CE1E7BE95D00299478 /* 6.Video-Player-Layout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20B24E11E7BE95D00299478 /* Build configuration list for PBXNativeTarget "6.Video-Player-Layout" */;
+			buildPhases = (
+				F20B24CB1E7BE95D00299478 /* Sources */,
+				F20B24CC1E7BE95D00299478 /* Frameworks */,
+				F20B24CD1E7BE95D00299478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6.Video-Player-Layout";
+			productName = "6.Video-Player-Layout";
+			productReference = F20B24CF1E7BE95D00299478 /* 6.Video-Player-Layout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F20B24C71E7BE95D00299478 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = spacetime;
+				TargetAttributes = {
+					F20B24CE1E7BE95D00299478 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TXCLPPJG27;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F20B24CA1E7BE95D00299478 /* Build configuration list for PBXProject "6.Video-Player-Layout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F20B24C61E7BE95D00299478;
+			productRefGroup = F20B24D01E7BE95D00299478 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F20B24CE1E7BE95D00299478 /* 6.Video-Player-Layout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F20B24CD1E7BE95D00299478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20B24DD1E7BE95D00299478 /* LaunchScreen.storyboard in Resources */,
+				F20B24DA1E7BE95D00299478 /* Assets.xcassets in Resources */,
+				F20B24D81E7BE95D00299478 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F20B24CB1E7BE95D00299478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20B25021E7BEA3C00299478 /* VideoPlayerLayoutViewController.swift in Sources */,
+				F20B24D31E7BE95D00299478 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F20B24D61E7BE95D00299478 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20B24D71E7BE95D00299478 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F20B24DB1E7BE95D00299478 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20B24DC1E7BE95D00299478 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F20B24DF1E7BE95D00299478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F20B24E01E7BE95D00299478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F20B24E21E7BE95D00299478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = TXCLPPJG27;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../";
+				INFOPLIST_FILE = "6.Video-Player-Layout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimao.RTCatDemo.--Video-Player-Layout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "6.Video-Player-Layout/6.Video-Player-Layout-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F20B24E31E7BE95D00299478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = TXCLPPJG27;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../";
+				INFOPLIST_FILE = "6.Video-Player-Layout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shishimao.RTCatDemo.--Video-Player-Layout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "6.Video-Player-Layout/6.Video-Player-Layout-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F20B24CA1E7BE95D00299478 /* Build configuration list for PBXProject "6.Video-Player-Layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20B24DF1E7BE95D00299478 /* Debug */,
+				F20B24E01E7BE95D00299478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20B24E11E7BE95D00299478 /* Build configuration list for PBXNativeTarget "6.Video-Player-Layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20B24E21E7BE95D00299478 /* Debug */,
+				F20B24E31E7BE95D00299478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F20B24C71E7BE95D00299478 /* Project object */;
+}
