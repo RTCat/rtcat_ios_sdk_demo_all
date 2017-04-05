@@ -10,9 +10,9 @@ import UIKit
 
 class VideoPlayerLayoutViewController: UIViewController {
 
-    let sessionId = "073df4a9-e9ef-4f45-a2b0-e14c778bcd86"
-    let apiKey = "91af9be9-7bac-40df-962d-f141eebe9d43"
-    let apiSecret = "ce8df259-1f7a-4aa4-9e4e-862af9f6c24d"
+    let sessionId = "314e6da1-7282-44cd-92b2-41cc99e1d6ba"
+    let apiKey = "8b8da770-d99c-4617-9f9a-79510505e175"
+    let apiSecret = "262abb49-2ffc-46c6-bdc7-cb27579b21c5"
     
     var cat:RTCat!
     var session:RTCatSession!
@@ -45,6 +45,11 @@ class VideoPlayerLayoutViewController: UIViewController {
         
         let task = URLSession.shared.dataTask(with: request, completionHandler: responseHandler);
         task.resume()
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        session.disconnect();
+        session = nil;
     }
     
     
@@ -93,7 +98,8 @@ class VideoPlayerLayoutViewController: UIViewController {
             
             
             if(token == "self"){
-                let rect = CGRect.init(x: 0, y: 0, width: 150, height: 150);
+                var rect = CGRect.init(x: 0, y: 0, width: 150, height: 150);
+                rect.origin.y = rect.origin.y + 100;
                 self.localVideoContainer = UIView.init(frame: rect);
                 self.localVideoContainer.clipsToBounds = true;
                 self.view.addSubview(self.localVideoContainer);
@@ -108,8 +114,9 @@ class VideoPlayerLayoutViewController: UIViewController {
                 let width = size.width/2;
                 let height = size.height/2;
                 
-                let rect = CGRect.init(x: (width*CGFloat(ix%2)), y: (height*CGFloat(ix/2)), width: width, height:height)
-            
+                var rect = CGRect.init(x: (width*CGFloat(ix%2)), y: (height*CGFloat(ix/2)), width: width, height:height)
+                rect.origin.y = rect.origin.y + 100;
+                
                 print("size : \(rect)")
             
                 let player = RTCatVideoPlayer.init(frame: rect, type: RTCatVideoPlayerType.RTCAT_REMOTE_VIDEO_PLAYER)
