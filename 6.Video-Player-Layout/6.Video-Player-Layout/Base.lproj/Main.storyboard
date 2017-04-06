@@ -25,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="-1713" y="116"/>
         </scene>
-        <!--View Controller-->
+        <!--Video Player Layout Start View Controller-->
         <scene sceneID="Ymi-Sf-6QO">
             <objects>
-                <viewController id="E2v-Vy-eo0" sceneMemberID="viewController">
+                <viewController id="E2v-Vy-eo0" customClass="VideoPlayerLayoutStartViewController" customModule="__Video_Player_Layout" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7Td-y8-b5k"/>
                         <viewControllerLayoutGuide type="bottom" id="zA2-cC-aXW"/>

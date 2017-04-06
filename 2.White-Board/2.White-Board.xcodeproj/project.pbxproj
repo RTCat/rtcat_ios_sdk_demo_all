@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F203D5371E961952008BE544 /* RTCatConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203D5361E961952008BE544 /* RTCatConfig.swift */; };
 		F2D443061E4C560800864117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D443051E4C560800864117 /* AppDelegate.swift */; };
 		F2D443081E4C560800864117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D443071E4C560800864117 /* ViewController.swift */; };
 		F2D4430B1E4C560800864117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D443091E4C560800864117 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F203D5361E961952008BE544 /* RTCatConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RTCatConfig.swift; path = ../../RTCatConfig.swift; sourceTree = "<group>"; };
 		F2D443021E4C560800864117 /* 2.White-Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2.White-Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D443051E4C560800864117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2D443071E4C560800864117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		F2D443041E4C560800864117 /* 2.White-Board */ = {
 			isa = PBXGroup;
 			children = (
+				F203D5361E961952008BE544 /* RTCatConfig.swift */,
 				F2D4434C1E4D618200864117 /* WhiteBoardView.h */,
 				F2D4434D1E4D618200864117 /* WhiteBoardView.m */,
 				F2D443051E4C560800864117 /* AppDelegate.swift */,
@@ -172,7 +175,7 @@
 				TargetAttributes = {
 					F2D443011E4C560800864117 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = XMN29TYQVE;
+						DevelopmentTeam = TXCLPPJG27;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F203D5371E961952008BE544 /* RTCatConfig.swift in Sources */,
 				F2D4434E1E4D618200864117 /* WhiteBoardView.m in Sources */,
 				F2D443081E4C560800864117 /* ViewController.swift in Sources */,
 				F2D443061E4C560800864117 /* AppDelegate.swift in Sources */,
@@ -340,7 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = XMN29TYQVE;
+				DEVELOPMENT_TEAM = TXCLPPJG27;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../";
 				INFOPLIST_FILE = "2.White-Board/Info.plist";
@@ -359,7 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = XMN29TYQVE;
+				DEVELOPMENT_TEAM = TXCLPPJG27;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../";
 				INFOPLIST_FILE = "2.White-Board/Info.plist";

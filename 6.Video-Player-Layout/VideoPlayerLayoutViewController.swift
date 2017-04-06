@@ -10,9 +10,6 @@ import UIKit
 
 class VideoPlayerLayoutViewController: UIViewController {
 
-    let sessionId = "314e6da1-7282-44cd-92b2-41cc99e1d6ba"
-    let apiKey = "8b8da770-d99c-4617-9f9a-79510505e175"
-    let apiSecret = "262abb49-2ffc-46c6-bdc7-cb27579b21c5"
     
     var cat:RTCat!
     var session:RTCatSession!
@@ -35,13 +32,13 @@ class VideoPlayerLayoutViewController: UIViewController {
     }
     
     func getToken() {
-        let url = "https://api.realtimecat.com/v0.3/sessions/\(sessionId)/tokens"
+        let url = "https://api.realtimecat.com/v0.3/sessions/\(RTCatConfig.sessionId)/tokens"
         var request = URLRequest(url: URL(string: url)!)
         request.httpMethod = "POST"
-        let postString = "session_id=\(sessionId)&type=\("pub")"
+        let postString = "session_id=\(RTCatConfig.sessionId)&type=\("pub")"
         request.httpBody = postString.data(using: .utf8)
-        request.addValue(_:apiKey, forHTTPHeaderField: "X-RTCAT-APIKEY")
-        request.addValue(_:apiSecret, forHTTPHeaderField: "X-RTCAT-SECRET")
+        request.addValue(_:RTCatConfig.apiKey, forHTTPHeaderField: "X-RTCAT-APIKEY")
+        request.addValue(_:RTCatConfig.apiSecret, forHTTPHeaderField: "X-RTCAT-SECRET")
         
         let task = URLSession.shared.dataTask(with: request, completionHandler: responseHandler);
         task.resume()
@@ -102,6 +99,7 @@ class VideoPlayerLayoutViewController: UIViewController {
                 rect.origin.y = rect.origin.y + 100;
                 self.localVideoContainer = UIView.init(frame: rect);
                 self.localVideoContainer.clipsToBounds = true;
+                self.localVideoContainer.backgroundColor = UIColor.blue;
                 self.view.addSubview(self.localVideoContainer);
                 self.localVideoPlayer = RTCatVideoPlayer.init(frame: CGRect.zero, type: RTCatVideoPlayerType.RTCAT_REMOTE_VIDEO_PLAYER);
                 self.localVideoContainer.addSubview(self.localVideoPlayer.view);
@@ -151,9 +149,11 @@ class VideoPlayerLayoutViewController: UIViewController {
         bounds.size.height = H
         
         self.localVideoPlayer.view.frame = bounds
-        self.localVideoPlayer.view.center = CGPoint.init(x: bounds.midX, y: bounds.midY)
-        
+//        self.localVideoPlayer.view.center = CGPoint.init(x:self.localVideoContainer.bounds.midX, y: self.localVideoContainer.bounds.midY)
+    
         print("change to bounds \(localVideoPlayer.view.bounds)")
+        print("video container \( self.localVideoContainer.center)" )
+        print("video player \(self.localVideoPlayer.view.center)")
         
         self.view.setNeedsLayout()
     }
@@ -216,7 +216,9 @@ extension VideoPlayerLayoutViewController :RTCatReceiverDelegate{
 
 extension VideoPlayerLayoutViewController: RTCatVideoPlayerDelegate{
     func didChangeVideoSize(_ videoPlayer: RTCatVideoPlayer!, size: CGSize) {
+        
         if(videoPlayer == self.localVideoPlayer){
+            print("did change localstream size \(size))");
             if(!isInitVideoPlaySize){
                 isInitVideoPlaySize = true;
                 realWidth = size.width;

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F203D5331E95F584008BE544 /* VideoPlayerLayoutStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203D5321E95F584008BE544 /* VideoPlayerLayoutStartViewController.swift */; };
+		F203D5411E96199C008BE544 /* RTCatConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203D5401E96199C008BE544 /* RTCatConfig.swift */; };
 		F20B24D31E7BE95D00299478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20B24D21E7BE95D00299478 /* AppDelegate.swift */; };
 		F20B24D81E7BE95D00299478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20B24D61E7BE95D00299478 /* Main.storyboard */; };
 		F20B24DA1E7BE95D00299478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20B24D91E7BE95D00299478 /* Assets.xcassets */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F203D5321E95F584008BE544 /* VideoPlayerLayoutStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerLayoutStartViewController.swift; sourceTree = "<group>"; };
+		F203D5401E96199C008BE544 /* RTCatConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RTCatConfig.swift; path = ../../RTCatConfig.swift; sourceTree = "<group>"; };
 		F20B24CF1E7BE95D00299478 /* 6.Video-Player-Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "6.Video-Player-Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20B24D21E7BE95D00299478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F20B24D71E7BE95D00299478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 		F20B24D11E7BE95D00299478 /* 6.Video-Player-Layout */ = {
 			isa = PBXGroup;
 			children = (
+				F203D5401E96199C008BE544 /* RTCatConfig.swift */,
 				F20B24D21E7BE95D00299478 /* AppDelegate.swift */,
 				F20B25011E7BEA3C00299478 /* VideoPlayerLayoutViewController.swift */,
 				F20B24D61E7BE95D00299478 /* Main.storyboard */,
@@ -105,6 +110,7 @@
 				F20B24DB1E7BE95D00299478 /* LaunchScreen.storyboard */,
 				F20B24DE1E7BE95D00299478 /* Info.plist */,
 				F20B25031E7BEA7600299478 /* 6.Video-Player-Layout-Bridging-Header.h */,
+				F203D5321E95F584008BE544 /* VideoPlayerLayoutStartViewController.swift */,
 			);
 			path = "6.Video-Player-Layout";
 			sourceTree = "<group>";
@@ -205,8 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F203D5411E96199C008BE544 /* RTCatConfig.swift in Sources */,
 				F20B25021E7BEA3C00299478 /* VideoPlayerLayoutViewController.swift in Sources */,
 				F20B24D31E7BE95D00299478 /* AppDelegate.swift in Sources */,
+				F203D5331E95F584008BE544 /* VideoPlayerLayoutStartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +389,7 @@
 				F20B24E31E7BE95D00299478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

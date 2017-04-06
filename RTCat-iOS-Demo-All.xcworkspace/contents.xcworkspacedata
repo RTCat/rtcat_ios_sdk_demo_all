@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:RTCatConfig.swift">
+   </FileRef>
+   <FileRef
       location = "group:1.Get-Local-Stream/1.Get-Local-Stream.xcodeproj">
    </FileRef>
    <FileRef

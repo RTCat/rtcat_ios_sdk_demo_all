@@ -9,11 +9,6 @@
 import UIKit
 
 class LogViewController: UIViewController {
-
-    
-    let sessionId = "073df4a9-e9ef-4f45-a2b0-e14c778bcd86"
-    let apiKey = "91af9be9-7bac-40df-962d-f141eebe9d43"
-    let apiSecret: String = "ce8df259-1f7a-4aa4-9e4e-862af9f6c24d"
     
     var cat:RTCat!
     var session:RTCatSession!
@@ -53,13 +48,13 @@ class LogViewController: UIViewController {
     }
     
     func getToken() {
-        let url = "https://api.realtimecat.com/v0.3/sessions/\(sessionId)/tokens"
+        let url = "https://api.realtimecat.com/v0.3/sessions/\(RTCatConfig.sessionId)/tokens"
         var request = URLRequest(url: URL(string: url)!)
         request.httpMethod = "POST"
-        let postString = "session_id=\(sessionId)&type=\("pub")"
+        let postString = "session_id=\(RTCatConfig.sessionId)&type=\("pub")"
         request.httpBody = postString.data(using: .utf8)
-        request.addValue(_:apiKey, forHTTPHeaderField: "X-RTCAT-APIKEY")
-        request.addValue(_:apiSecret, forHTTPHeaderField: "X-RTCAT-SECRET")
+        request.addValue(_:RTCatConfig.apiKey, forHTTPHeaderField: "X-RTCAT-APIKEY")
+        request.addValue(_:RTCatConfig.apiSecret, forHTTPHeaderField: "X-RTCAT-SECRET")
         
         let task = URLSession.shared.dataTask(with: request, completionHandler: responseHandler);
         task.resume()

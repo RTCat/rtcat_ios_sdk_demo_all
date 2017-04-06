@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F203D5391E961961008BE544 /* RTCatConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203D5381E961961008BE544 /* RTCatConfig.swift */; };
 		F2C764091E514764008CB903 /* RTCatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C763F91E514764008CB903 /* RTCatSDK.framework */; };
 		F2C7640A1E514764008CB903 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C763FA1E514764008CB903 /* VideoToolbox.framework */; };
 		F2C7640B1E514764008CB903 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C763FB1E514764008CB903 /* QuartzCore.framework */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F203D5381E961961008BE544 /* RTCatConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RTCatConfig.swift; path = ../../RTCatConfig.swift; sourceTree = "<group>"; };
 		F2C763F91E514764008CB903 /* RTCatSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RTCatSDK.framework; path = ../demo_all/RTCatSDK.framework; sourceTree = "<group>"; };
 		F2C763FA1E514764008CB903 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		F2C763FB1E514764008CB903 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -124,6 +126,7 @@
 		F2D4439D1E4DC98600864117 /* 3.Mutli-Party */ = {
 			isa = PBXGroup;
 			children = (
+				F203D5381E961961008BE544 /* RTCatConfig.swift */,
 				F2D4439E1E4DC98600864117 /* AppDelegate.swift */,
 				F2D443A01E4DC98600864117 /* ViewController.swift */,
 				F2D443A21E4DC98600864117 /* Main.storyboard */,
@@ -167,7 +170,7 @@
 				TargetAttributes = {
 					F2D4439A1E4DC98600864117 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = XMN29TYQVE;
+						DevelopmentTeam = TXCLPPJG27;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -209,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F203D5391E961961008BE544 /* RTCatConfig.swift in Sources */,
 				F2D443A11E4DC98600864117 /* ViewController.swift in Sources */,
 				F2D4439F1E4DC98600864117 /* AppDelegate.swift in Sources */,
 			);
@@ -334,7 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = XMN29TYQVE;
+				DEVELOPMENT_TEAM = TXCLPPJG27;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../";
 				INFOPLIST_FILE = "3.Mutli-Party/Info.plist";
@@ -354,7 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = XMN29TYQVE;
+				DEVELOPMENT_TEAM = TXCLPPJG27;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../";
 				INFOPLIST_FILE = "3.Mutli-Party/Info.plist";

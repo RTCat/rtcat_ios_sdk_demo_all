@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F203D53F1E96197E008BE544 /* RTCatConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203D53E1E96197E008BE544 /* RTCatConfig.swift */; };
 		F2C764461E51A820008CB903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C764451E51A820008CB903 /* AppDelegate.swift */; };
 		F2C7644B1E51A820008CB903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C764491E51A820008CB903 /* Main.storyboard */; };
 		F2C7644D1E51A820008CB903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C7644C1E51A820008CB903 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F203D53E1E96197E008BE544 /* RTCatConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RTCatConfig.swift; path = ../../RTCatConfig.swift; sourceTree = "<group>"; };
 		F2C764421E51A820008CB903 /* 5.Log-And-Error.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5.Log-And-Error.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C764451E51A820008CB903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C7644A1E51A820008CB903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		F2C764441E51A820008CB903 /* 5.Log-And-Error */ = {
 			isa = PBXGroup;
 			children = (
+				F203D53E1E96197E008BE544 /* RTCatConfig.swift */,
 				F2C765201E52F03D008CB903 /* LogViewController.swift */,
 				F2C764451E51A820008CB903 /* AppDelegate.swift */,
 				F2C764491E51A820008CB903 /* Main.storyboard */,
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F203D53F1E96197E008BE544 /* RTCatConfig.swift in Sources */,
 				F2C764461E51A820008CB903 /* AppDelegate.swift in Sources */,
 				F2C765211E52F03D008CB903 /* LogViewController.swift in Sources */,
 			);
@@ -383,6 +387,7 @@
 				F2C764561E51A820008CB903 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
