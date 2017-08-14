@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F203D53B1E96196D008BE544 /* RTCatConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203D53A1E96196D008BE544 /* RTCatConfig.swift */; };
+		F229F7981F414A0900CACF69 /* RTCatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F229F7951F414A0900CACF69 /* RTCatSDK.framework */; };
+		F229F7991F414A0900CACF69 /* RTCatSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F229F7961F414A0900CACF69 /* RTCatSDKCore.framework */; };
+		F229F79A1F414A0900CACF69 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F229F7971F414A0900CACF69 /* WebRTC.framework */; };
+		F229F79B1F414A1D00CACF69 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F229F7971F414A0900CACF69 /* WebRTC.framework */; };
+		F229F79C1F414A1D00CACF69 /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F229F7971F414A0900CACF69 /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F2C764281E519515008CB903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C764271E519515008CB903 /* AppDelegate.swift */; };
 		F2C7642D1E519515008CB903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C7642B1E519515008CB903 /* Main.storyboard */; };
 		F2C7642F1E519515008CB903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C7642E1E519515008CB903 /* Assets.xcassets */; };
 		F2C764321E519515008CB903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C764301E519515008CB903 /* LaunchScreen.storyboard */; };
 		F2C764DA1E51B970008CB903 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C764D91E51B970008CB903 /* MessageViewController.swift */; };
-		F2C7650F1E52E814008CB903 /* RTCatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C764FF1E52E814008CB903 /* RTCatSDK.framework */; };
 		F2C765101E52E814008CB903 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C765001E52E814008CB903 /* VideoToolbox.framework */; };
 		F2C765111E52E814008CB903 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C765011E52E814008CB903 /* QuartzCore.framework */; };
 		F2C765121E52E814008CB903 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C765021E52E814008CB903 /* OpenGLES.framework */; };
@@ -30,8 +34,25 @@
 		F2C7651D1E52E814008CB903 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C7650D1E52E814008CB903 /* libicucore.A.tbd */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F229F79D1F414A1D00CACF69 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F229F79C1F414A1D00CACF69 /* WebRTC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		F203D53A1E96196D008BE544 /* RTCatConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RTCatConfig.swift; path = ../../RTCatConfig.swift; sourceTree = "<group>"; };
+		F229F7951F414A0900CACF69 /* RTCatSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RTCatSDK.framework; path = /Users/spacetime/Develop/ios/shishimao/demo/demo_all/SDK/RTCatSDK.framework; sourceTree = "<absolute>"; };
+		F229F7961F414A0900CACF69 /* RTCatSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RTCatSDKCore.framework; path = /Users/spacetime/Develop/ios/shishimao/demo/demo_all/SDK/RTCatSDKCore.framework; sourceTree = "<absolute>"; };
+		F229F7971F414A0900CACF69 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = /Users/spacetime/Develop/ios/shishimao/demo/demo_all/SDK/WebRTC.framework; sourceTree = "<absolute>"; };
 		F2C764241E519515008CB903 /* 4.Message.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4.Message.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C764271E519515008CB903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C7642C1E519515008CB903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +61,6 @@
 		F2C764331E519515008CB903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C764911E51A9E6008CB903 /* 4.Message-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "4.Message-Bridging-Header.h"; sourceTree = "<group>"; };
 		F2C764D91E51B970008CB903 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
-		F2C764FF1E52E814008CB903 /* RTCatSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RTCatSDK.framework; path = ../demo_all/RTCatSDK.framework; sourceTree = "<group>"; };
 		F2C765001E52E814008CB903 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		F2C765011E52E814008CB903 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F2C765021E52E814008CB903 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -62,11 +82,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F229F7981F414A0900CACF69 /* RTCatSDK.framework in Frameworks */,
+				F229F7991F414A0900CACF69 /* RTCatSDKCore.framework in Frameworks */,
+				F229F79A1F414A0900CACF69 /* WebRTC.framework in Frameworks */,
 				F2C765171E52E814008CB903 /* CoreAudio.framework in Frameworks */,
 				F2C765101E52E814008CB903 /* VideoToolbox.framework in Frameworks */,
+				F229F79B1F414A1D00CACF69 /* WebRTC.framework in Frameworks */,
 				F2C765181E52E814008CB903 /* AVFoundation.framework in Frameworks */,
 				F2C765191E52E814008CB903 /* AudioToolbox.framework in Frameworks */,
-				F2C7650F1E52E814008CB903 /* RTCatSDK.framework in Frameworks */,
 				F2C7651B1E52E814008CB903 /* libsqlite3.tbd in Frameworks */,
 				F2C765111E52E814008CB903 /* QuartzCore.framework in Frameworks */,
 				F2C7651A1E52E814008CB903 /* CFNetwork.framework in Frameworks */,
@@ -118,7 +141,9 @@
 		F2C7650E1E52E814008CB903 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F2C764FF1E52E814008CB903 /* RTCatSDK.framework */,
+				F229F7951F414A0900CACF69 /* RTCatSDK.framework */,
+				F229F7961F414A0900CACF69 /* RTCatSDKCore.framework */,
+				F229F7971F414A0900CACF69 /* WebRTC.framework */,
 				F2C765001E52E814008CB903 /* VideoToolbox.framework */,
 				F2C765011E52E814008CB903 /* QuartzCore.framework */,
 				F2C765021E52E814008CB903 /* OpenGLES.framework */,
@@ -148,6 +173,7 @@
 				F2C764201E519515008CB903 /* Sources */,
 				F2C764211E519515008CB903 /* Frameworks */,
 				F2C764221E519515008CB903 /* Resources */,
+				F229F79D1F414A1D00CACF69 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -340,7 +366,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = TXCLPPJG27;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../SDK";
 				INFOPLIST_FILE = 4.Message/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -360,7 +386,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = TXCLPPJG27;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../SDK";
 				INFOPLIST_FILE = 4.Message/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

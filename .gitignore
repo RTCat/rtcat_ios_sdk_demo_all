@@ -39,6 +39,3 @@ Packages/
 Package.pins
 .build/
 
-
-RTCatSDK.framework
-
