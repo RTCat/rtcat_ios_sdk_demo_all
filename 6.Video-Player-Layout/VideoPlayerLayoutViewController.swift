@@ -45,8 +45,10 @@ class VideoPlayerLayoutViewController: UIViewController {
     }
     
     override func viewDidDisappear(_ animated: Bool) {
-        session.disconnect();
-        session = nil;
+        if((session) != nil){
+            session.disconnect();
+            session = nil;
+        }
     }
     
     
