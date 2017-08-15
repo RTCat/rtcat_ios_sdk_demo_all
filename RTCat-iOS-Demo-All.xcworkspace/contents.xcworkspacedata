@@ -22,4 +22,7 @@
    <FileRef
       location = "group:6.Video-Player-Layout/6.Video-Player-Layout.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:7.SFU/7.SFU.xcodeproj">
+   </FileRef>
 </Workspace>
