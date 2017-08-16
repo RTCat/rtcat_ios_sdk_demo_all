@@ -25,4 +25,7 @@
    <FileRef
       location = "group:7.SFU/7.SFU.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:8.Reconnect/8.Reconnect.xcodeproj">
+   </FileRef>
 </Workspace>
