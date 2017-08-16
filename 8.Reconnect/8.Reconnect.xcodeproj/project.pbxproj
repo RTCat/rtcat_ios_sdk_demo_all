@@ -429,6 +429,7 @@
 				F277EBB01F42EEF20037C922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
