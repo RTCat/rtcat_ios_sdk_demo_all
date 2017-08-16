@@ -48,6 +48,7 @@
                 UIView *container = [[UIView alloc] initWithFrame:rect];
                 [_poses addObject:@0];
                 [_containers addObject:container];
+                [container setClipsToBounds:YES];
                 [_view addSubview:container];
             }
         });
