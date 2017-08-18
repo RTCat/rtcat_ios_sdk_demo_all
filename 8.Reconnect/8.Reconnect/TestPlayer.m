@@ -86,6 +86,14 @@
     [player.view removeFromSuperview];
 }
 
+
+-(void)clear{
+    for(NSString *key in _players){
+        [_players[key].view removeFromSuperview];
+    }
+    [_players removeAllObjects];
+}
+
 @end
 
 

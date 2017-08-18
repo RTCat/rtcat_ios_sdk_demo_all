@@ -64,6 +64,7 @@
 
 -(void)disconnect{
     if(_session){
+        [_player clear];
         [_session disconnect];
     }
 }
@@ -122,6 +123,7 @@
 
 -(void)sessionClose:(RTCatSession *)session{
     NSLog(@"session closed");
+    [_player clear];
     [_delegate failed];
 }
 

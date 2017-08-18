@@ -23,4 +23,6 @@ typedef NS_ENUM(int,ModeType){
 
 -(void)removeStream:(NSString*)token;
 
+-(void)clear;
+
 @end
