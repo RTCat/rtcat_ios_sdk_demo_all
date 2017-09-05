@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSCameraUsageDescription</key>
+    <string>摄像头权限</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>麦克风权限</string>
 </dict>
 </plist>

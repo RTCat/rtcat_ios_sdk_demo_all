@@ -99,8 +99,13 @@ typedef NS_ENUM(NSInteger, RTCatLoggingLevel) {
 -(RTCatSession *)createSessionWithToken:(NSString *)token url:(NSString *)url type:(RTCatSessionType)type;
 
 
-
--(RTCatSFUSession *)createSFUSessionWithToken:(NSString* )token url:(NSString *)url;
+/**
+ *  创建SFU Session
+ *  @param token 连接SFUSession的Token
+ *  @param url   实时猫SFU服务器地址
+ *  @param route 服务器线路
+ */
+-(RTCatSFUSession *)createSFUSessionWithToken:(NSString* )token url:(NSString *)url route:(NSString*)route;
 
 /**
  *  设置音频输出设备

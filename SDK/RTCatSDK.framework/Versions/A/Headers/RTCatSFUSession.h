@@ -15,9 +15,8 @@
 
 @end
 
-
 @protocol RTCatSFUSessionDelegate <NSObject>
--(void)sessionConnected:(RTCatSFUSession*)session;
+-(void)sessionConnected:(RTCatSFUSession*)session routes:(NSArray<NSString*>*)routes;
 -(void)sessionDisconnected:(RTCatSFUSession*)session;
 -(void)session:(RTCatSFUSession*)session error:(NSError*)error;
 -(void)session:(RTCatSFUSession*)session published:(NSString*)tokenId;
