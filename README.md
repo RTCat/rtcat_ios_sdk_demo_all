@@ -1,4 +1,4 @@
-## 实时猫 Android SDK Demo
+## 实时猫 iOS SDK Demo
 
 基于 [实时猫 iOS SDK](https://shishimao.com) 开发的样例 Demo
 
@@ -13,6 +13,9 @@
 3. 多人音视频通信
 4. 文字聊天
 5. 日志和错误
+6. 布局
+7. SFU
+8. 断线重连
 
 ## 使用
 
